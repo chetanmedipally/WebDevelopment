@@ -1,0 +1,9 @@
+<%- include("partials/header") -%>
+
+<% allposts.forEach(element => { %>
+    <h1><%= element.heading %></h1>
+    <p><%= element.body.substring(0,100) + " ... " %><a href="/posts/<%=element._id%>">Read More</a></p>
+
+<% }); %>
+
+<%- include("partials/footer") -%>

@@ -1,0 +1,15 @@
+{
+  "name": "fruitsproject",
+  "version": "1.0.0",
+  "description": "\"Sample project to learn mongoDB native driver usage with Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chetan Medipally",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.8"
+  }
+}

@@ -1,0 +1,21 @@
+h1{
+    color :red;
+}
+img:hover{
+    background-color: gold;
+}
+.cake{
+    background-color: green;
+}
+.moon-cake{
+    background-color: red;
+}
+.circular{
+    border-radius: 100%;
+}
+#heading{
+    color: yellow;
+}
+#big{
+    font-size: 100px;
+}
